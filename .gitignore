@@ -10,7 +10,8 @@ lerna-debug.log*
 node_modules
 dist
 src
-target
+/src-tauri/target/*
+!/src-tauri/target/release/warp-sys-tray
 dist-ssr
 *.local
 
