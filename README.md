@@ -6,7 +6,11 @@ A Tauri System Tray based on warp-cli for linux based systems with Rust.
 
 Install cargo, rustup, warp-cli and register with warp-cli register.
 
-Then install from source:
+Then install via cargo:
+    
+    $ cargo install --git https://github.com/Abhay-N-J/warp-sys-tray
+
+Or install from source:
 
     $ git clone https://github.com/Abhay-N-J/warp-sys-tray
     $ cd warp-sys-tray
