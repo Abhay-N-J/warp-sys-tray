@@ -10,13 +10,10 @@ Then install from source:
 
     $ git clone https://github.com/Abhay-N-J/warp-sys-tray
     $ cd warp-sys-tray
-    $ ./src-tauri/target/release/warp-sys-tray
-    or
-    $ git clone https://github.com/Abhay-N-J/warp-sys-tray
-    $ cd warp-sys-tray
     $ cargo install tauri-cli
     $ cargo tauri build
-
+    $ ./src-tauri/target/release/warp-sys-tray
+    
 Note: warp-gui-app from https://github.com/Abhay-N-J/warp-gui-app will also be installed as a dependancy
 
 ## Uninstallation
