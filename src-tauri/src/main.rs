@@ -37,7 +37,6 @@ fn on_system_tray_event(app: &AppHandle, event: SystemTrayEvent) {
                         unsafe {
                             HIDE_TOGGLE = false;
                         }
-                        println!("sdsd");
                         item_handle.set_title("Show").unwrap();
                         Command::new("sh")
                             .arg("-c")

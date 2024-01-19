@@ -3,7 +3,6 @@ name = "warp-sys-tray"
 version = "0.1.0"
 description = "A Tauri Sys Tray for warp-gui-app"
 authors = ["AbhayJo"]
-license = "MIT/Apache-2.0"
 license-file = "LICENSE"
 repository = "https://github.com/Abhay-N-J/warp-sys-tray"
 edition = "2021"
